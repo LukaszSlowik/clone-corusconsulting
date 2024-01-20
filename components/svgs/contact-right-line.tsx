@@ -1,0 +1,321 @@
+"use client";
+import React from "react";
+import { motion, useInView } from "framer-motion";
+type Props = {};
+
+const variants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 2 / 38,
+      delayChildren: 0.2,
+    },
+  },
+};
+const variantsChildren = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      //duration: 0.5
+    },
+  },
+};
+
+const ContactRightLine = (props: Props) => {
+  const ref = React.useRef(null);
+  const inView = useInView(ref, { once: true });
+  return (
+    <motion.svg
+      ref={ref}
+      variants={variants}
+      initial={"hidden"}
+      animate={inView && "visible"}
+      version="1.1"
+      id="Capa_1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+      x="0px"
+      y="0px"
+      viewBox="0 0 290.7 457"
+      //style="enable-background:new 0 0 290.7 457;"
+      xmlSpace="preserve"
+    >
+      {/* <style type="text/css">
+      .st0{
+          fill:#3FAE29;
+          opacity:0;
+          }
+  </style> */}
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M244.3,183.1c0.3,0.5,0.2,1.1-0.3,1.4c-1.7,1.1-3.3,2.2-5,3.4c-0.5,0.3-1.1,0.2-1.4-0.3
+      c-0.3-0.5-0.2-1.1,0.3-1.4c1.7-1.1,3.4-2.2,5-3.3C243.4,182.6,244,182.7,244.3,183.1z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M289.9,144.4c-0.4-0.4-1-0.4-1.4,0c-1.4,1.4-2.8,2.8-4.2,4.2c-0.4,0.4-0.4,1,0,1.4c0.4,0.4,1,0.4,1.4,0
+      c1.4-1.4,2.8-2.8,4.2-4.2C290.3,145.4,290.3,144.8,289.9,144.4z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M280,152.8c-1.4,1.4-2.9,2.7-4.4,4.1c-0.4,0.4-0.4,1-0.1,1.4s1,0.4,1.4,0.1c1.5-1.4,2.9-2.7,4.4-4.1
+      c0.4-0.4,0.4-1,0-1.4C281,152.4,280.4,152.4,280,152.8z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M271.2,160.9c-1.5,1.3-3,2.6-4.5,3.9c-0.4,0.4-0.5,1-0.1,1.4c0.4,0.4,1,0.5,1.4,0.1c1.5-1.3,3.1-2.6,4.6-3.9
+      c0.4-0.4,0.5-1,0.1-1.4C272.2,160.6,271.6,160.5,271.2,160.9z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M262.1,168.6c-1.5,1.3-3.1,2.5-4.7,3.7c-0.4,0.3-0.5,1-0.2,1.4c0.3,0.4,1,0.5,1.4,0.2c1.6-1.2,3.2-2.5,4.7-3.8
+      c0.4-0.3,0.5-1,0.1-1.4C263.1,168.3,262.5,168.3,262.1,168.6z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M252.6,175.9c-1.6,1.2-3.2,2.4-4.9,3.5c-0.5,0.3-0.6,0.9-0.2,1.4c0.3,0.5,0.9,0.6,1.4,0.2
+      c1.7-1.2,3.3-2.4,4.9-3.6c0.4-0.3,0.5-1,0.2-1.4S253.1,175.6,252.6,175.9z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M232.9,189.4c-1.7,1-3.4,2.1-5.1,3.1c-0.5,0.3-0.6,0.9-0.4,1.4c0.3,0.5,0.9,0.6,1.4,0.3c1.8-1,3.5-2.1,5.2-3.1
+      c0.5-0.3,0.6-0.9,0.3-1.4C234,189.2,233.4,189.1,232.9,189.4z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M222.6,195.5c-1.7,1-3.5,1.9-5.2,2.9c-0.5,0.3-0.7,0.9-0.4,1.4c0.3,0.5,0.9,0.7,1.4,0.4c1.8-1,3.5-1.9,5.3-2.9
+      c0.5-0.3,0.7-0.9,0.4-1.4C223.7,195.4,223.1,195.2,222.6,195.5z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M212.1,201.2c-1.7,0.9-3.5,1.8-5.3,2.7c-0.5,0.2-0.7,0.8-0.5,1.3c0.2,0.5,0.8,0.7,1.3,0.5
+      c1.8-0.9,3.6-1.8,5.3-2.7c0.5-0.3,0.7-0.9,0.4-1.3C213.2,201.1,212.6,200.9,212.1,201.2z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M201.3,206.5c-1.8,0.8-3.6,1.6-5.4,2.5c-0.5,0.2-0.7,0.8-0.5,1.3c0.2,0.5,0.8,0.7,1.3,0.5
+      c1.8-0.8,3.6-1.6,5.4-2.5c0.5-0.2,0.7-0.8,0.5-1.3C202.4,206.4,201.8,206.2,201.3,206.5z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M190.4,211.3c-1.8,0.8-3.6,1.5-5.5,2.3c-0.5,0.2-0.8,0.8-0.5,1.3c0.2,0.5,0.8,0.8,1.3,0.5
+      c1.9-0.8,3.7-1.5,5.5-2.3c0.5-0.2,0.7-0.8,0.5-1.3C191.5,211.3,190.9,211.1,190.4,211.3z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M179.4,215.8c-1.9,0.7-3.8,1.4-5.7,2.2c-0.5,0.2-0.8,0.8-0.6,1.3s0.8,0.8,1.3,0.6c1.9-0.7,3.8-1.4,5.7-2.2
+      c0.5-0.2,0.8-0.8,0.6-1.3C180.5,215.9,179.9,215.6,179.4,215.8z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M168.2,220c-1.9,0.7-3.8,1.3-5.7,2c-0.5,0.2-0.8,0.7-0.6,1.3c0.2,0.5,0.7,0.8,1.3,0.6c1.9-0.7,3.8-1.3,5.7-2
+      c0.5-0.2,0.8-0.8,0.6-1.3C169.3,220.1,168.7,219.8,168.2,220z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M156.8,223.9c-1.9,0.6-3.7,1.2-5.6,1.8c-0.5,0.2-0.8,0.7-0.7,1.3c0.2,0.5,0.7,0.8,1.3,0.7
+      c1.9-0.6,3.8-1.2,5.7-1.8c0.5-0.2,0.8-0.7,0.6-1.3C157.9,224,157.4,223.7,156.8,223.9z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M145.4,227.4c-1,0.3-2,0.6-2.9,0.9c-1,0.3-2,0.6-3,0.9c-0.5,0.2-0.8,0.7-0.7,1.2c0.2,0.5,0.7,0.8,1.2,0.7
+      c1-0.3,2-0.6,3-0.9c1-0.3,2-0.6,3-0.9c0.5-0.2,0.8-0.7,0.7-1.2C146.5,227.6,145.9,227.3,145.4,227.4z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M133.8,231c-2,0.7-3.9,1.3-5.7,2c-0.5,0.2-0.8,0.8-0.6,1.3c0.2,0.5,0.8,0.8,1.3,0.6c1.8-0.7,3.7-1.4,5.7-2
+      c0.5-0.2,0.8-0.7,0.6-1.3C134.9,231.1,134.3,230.8,133.8,231z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M122.5,235.2c-1.9,0.8-3.8,1.6-5.6,2.5c-0.5,0.2-0.7,0.8-0.5,1.3c0.2,0.5,0.8,0.7,1.3,0.5
+      c1.8-0.8,3.6-1.6,5.5-2.4c0.5-0.2,0.8-0.8,0.5-1.3S123,235,122.5,235.2z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M111.5,240.4c-1.8,1-3.6,2-5.2,3c-0.5,0.3-0.6,0.9-0.3,1.4c0.3,0.5,0.9,0.6,1.4,0.3c1.6-1,3.3-2,5.1-2.9
+      c0.5-0.3,0.7-0.9,0.4-1.4C112.6,240.3,112,240.1,111.5,240.4z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M101.2,246.7c-1.7,1.2-3.3,2.4-4.8,3.7c-0.4,0.4-0.5,1-0.1,1.4c0.4,0.4,1,0.5,1.4,0.1c1.5-1.2,3.1-2.4,4.7-3.6
+      c0.5-0.3,0.6-0.9,0.2-1.4C102.3,246.5,101.7,246.4,101.2,246.7z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M91.9,254.5c-1.5,1.5-2.8,2.9-4.1,4.5c-0.4,0.4-0.3,1.1,0.1,1.4c0.4,0.4,1.1,0.3,1.4-0.1c1.2-1.5,2.6-2.9,4-4.3
+      c0.4-0.4,0.4-1,0-1.4C92.9,254.1,92.2,254.1,91.9,254.5z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M84,263.8c-1.2,1.7-2.3,3.4-3.3,5.1c-0.3,0.5-0.1,1.1,0.4,1.4c0.5,0.3,1.1,0.1,1.4-0.4c1-1.7,2-3.4,3.2-5
+      c0.3-0.5,0.2-1.1-0.2-1.4C84.9,263.2,84.3,263.3,84,263.8z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M79.3,273.8c-0.5-0.2-1.1,0-1.3,0.5c-0.9,1.8-1.7,3.7-2.4,5.6c-0.2,0.5,0.1,1.1,0.6,1.3
+      c0.5,0.2,1.1-0.1,1.3-0.6c0.7-1.9,1.5-3.7,2.4-5.4C80,274.7,79.8,274.1,79.3,273.8z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M74.7,284.9c-0.5-0.2-1.1,0.1-1.3,0.6c-0.6,1.9-1.2,3.8-1.8,5.8c-0.2,0.5,0.2,1.1,0.7,1.2
+      c0.5,0.2,1.1-0.2,1.2-0.7c0.5-1.9,1.1-3.8,1.7-5.7C75.5,285.7,75.3,285.1,74.7,284.9z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M71.4,296.5c-0.5-0.1-1.1,0.2-1.2,0.7c-0.5,1.9-0.9,3.9-1.4,5.9c-0.1,0.5,0.2,1.1,0.8,1.2
+      c0.5,0.1,1.1-0.2,1.2-0.8c0.4-2,0.9-3.9,1.4-5.8C72.2,297.1,71.9,296.6,71.4,296.5z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M68.7,308.2c-0.5-0.1-1.1,0.2-1.2,0.8c-0.4,1.9-0.8,3.9-1.2,5.9c-0.1,0.5,0.2,1.1,0.8,1.2
+      c0.5,0.1,1.1-0.2,1.2-0.8c0.4-2,0.8-3.9,1.2-5.9C69.5,308.8,69.2,308.3,68.7,308.2z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M66.2,319.9c-0.5-0.1-1.1,0.2-1.2,0.8c-0.4,1.9-0.8,3.9-1.3,5.9c-0.1,0.5,0.2,1.1,0.8,1.2
+      c0.5,0.1,1.1-0.2,1.2-0.8c0.4-2,0.8-4,1.3-5.9C67.1,320.5,66.7,320,66.2,319.9z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M63.7,331.7c-0.5-0.1-1.1,0.2-1.2,0.8c-0.4,1.9-0.9,3.8-1.4,5.8c-0.1,0.5,0.2,1.1,0.7,1.2
+      c0.5,0.1,1.1-0.2,1.2-0.7c0.5-2,0.9-3.9,1.4-5.8C64.5,332.3,64.2,331.8,63.7,331.7z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M60.8,343.3c-0.5-0.1-1.1,0.2-1.2,0.7c-0.5,1.9-1,3.8-1.6,5.8c-0.2,0.5,0.2,1.1,0.7,1.2
+      c0.5,0.2,1.1-0.2,1.2-0.7c0.6-2,1.1-3.9,1.6-5.8C61.7,344,61.4,343.4,60.8,343.3z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M57.6,354.9c-0.5-0.2-1.1,0.1-1.2,0.7c-0.6,1.9-1.2,3.8-1.8,5.7c-0.2,0.5,0.1,1.1,0.6,1.3
+      c0.5,0.2,1.1-0.1,1.3-0.6c0.6-1.9,1.2-3.8,1.8-5.7C58.4,355.6,58.1,355,57.6,354.9z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M53.9,366.3c-0.5-0.2-1.1,0.1-1.3,0.6c-0.7,1.8-1.3,3.7-2.1,5.6c-0.2,0.5,0.1,1.1,0.6,1.3
+      c0.5,0.2,1.1-0.1,1.3-0.6c0.7-1.9,1.4-3.8,2.1-5.6C54.7,367.1,54.4,366.5,53.9,366.3z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M49.6,377.5c-0.5-0.2-1.1,0-1.3,0.5c-0.8,1.8-1.5,3.7-2.4,5.5c-0.2,0.5,0,1.1,0.5,1.3c0.5,0.2,1.1,0,1.3-0.5
+      c0.8-1.9,1.6-3.7,2.4-5.6C50.4,378.3,50.1,377.7,49.6,377.5z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M44.8,388.5c-0.5-0.2-1.1,0-1.3,0.5c-0.8,1.8-1.7,3.6-2.6,5.4c-0.2,0.5,0,1.1,0.4,1.3c0.5,0.2,1.1,0,1.3-0.4
+      c0.9-1.8,1.8-3.7,2.7-5.5C45.5,389.3,45.3,388.7,44.8,388.5z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M39.5,399.3c-0.5-0.3-1.1-0.1-1.4,0.4c-0.9,1.8-1.9,3.5-2.9,5.3c-0.3,0.5-0.1,1.1,0.4,1.4
+      c0.5,0.3,1.1,0.1,1.4-0.4c1-1.8,2-3.6,2.9-5.4C40.2,400.1,40,399.5,39.5,399.3z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M33.7,409.8c-0.5-0.3-1.1-0.1-1.4,0.4c-1,1.7-2.1,3.4-3.1,5.2c-0.3,0.5-0.1,1.1,0.3,1.4
+      c0.5,0.3,1.1,0.1,1.4-0.3c1.1-1.8,2.1-3.5,3.2-5.2C34.3,410.6,34.2,410,33.7,409.8z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M27.4,420c-0.5-0.3-1.1-0.2-1.4,0.3c-1.1,1.7-2.2,3.3-3.3,5c-0.3,0.5-0.2,1.1,0.3,1.4c0.5,0.3,1.1,0.2,1.4-0.3
+      c1.2-1.7,2.3-3.4,3.4-5.1C28,420.9,27.9,420.3,27.4,420z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M19.3,430.2c-1.1,1.6-2.3,3.2-3.5,4.9c-0.3,0.4-0.2,1.1,0.2,1.4c0.4,0.3,1.1,0.2,1.4-0.2
+      c1.2-1.6,2.4-3.3,3.5-4.9c0.3-0.5,0.2-1.1-0.2-1.4C20.3,429.6,19.6,429.7,19.3,430.2z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M12.2,439.9c-1.2,1.6-2.4,3.1-3.7,4.7c-0.3,0.4-0.3,1.1,0.2,1.4c0.4,0.3,1.1,0.3,1.4-0.2
+      c1.3-1.6,2.5-3.2,3.7-4.7c0.3-0.4,0.3-1.1-0.2-1.4C13.2,439.3,12.5,439.4,12.2,439.9z"
+        opacity="1"
+      ></motion.path>
+      <motion.path
+        variants={variantsChildren}
+        className="fill-primary"
+        d="M4.7,449.3c-1.2,1.5-2.5,3-3.8,4.5c-0.4,0.4-0.3,1.1,0.1,1.4c0.4,0.4,1.1,0.3,1.4-0.1c1.3-1.5,2.6-3,3.8-4.5
+      c0.4-0.4,0.3-1.1-0.1-1.4C5.7,448.8,5.1,448.9,4.7,449.3z"
+        opacity="1"
+      ></motion.path>
+    </motion.svg>
+  );
+};
+
+export default ContactRightLine;

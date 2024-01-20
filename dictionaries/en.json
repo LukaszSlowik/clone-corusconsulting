@@ -1,0 +1,602 @@
+{
+    "navigation": {
+        "solutions-nav": "Solutions",
+        "sectors-nav": "Sectors",
+        "us-nav": "Us",
+        "positions-nav": "Positions",
+        "contact-nav": "Contact",
+        "integration-api": "Integration / API",
+        "process": "Processes",
+        "iot-ai": "IoT / AI",
+        "ux": "UX / UI",
+        "cms": "CMS",
+        "video": "Video",
+        "develop": "Development",
+        "qa": "QA",
+        "finance": "Finance",
+        "insurance": "Insurance",
+        "healthcare": "Healthcare",
+        "industry": "Industry",
+        "consumer": "Consumer",
+        "media": "Media",
+        "about-us": "About us",
+        "partners": "Partners",
+        "positions": "Join the team",
+        "position-position": "Job offers"
+    },
+    "contact": "Contact",
+    "footer-links": {
+        "terms": "Terms",
+        "privacy": "Privacy",
+        "cookies": "Cookies"
+    },
+    "footer-addresses": [
+        {
+            "city": "Spain-Madrid",
+            "address": "Calle Miguel Yuste 12",
+            "postal-code": "28037 Madrid",
+            "country": "Spain"
+        },
+        {
+            "city": "Spain-Barcelona",
+            "address": "Carrer de Balmes 191",
+            "postal-code": "08006 Barcelona",
+            "country": "Spain"
+        },
+        {
+            "city": "UNITED STATES",
+            "address": "163 Highland Ave",
+            "postal-code": "Needham, MA 02494",
+            "country": "USA"
+        },
+        {
+            "city": "Mexico",
+            "address": "Lago Alberto 319",
+            "postal-code": "11520 CdMx",
+            "country": "Mexico"
+        },
+        {
+            "city": "Colombia",
+            "address": "Calle 100 # 19ª-50 oficina 304",
+            "postal-code": "28037 Madrid",
+            "country": "Colombia"
+        },
+        {
+            "city": "Peru",
+            "address": "Av. Javier Prado Oeste 757, Ofi. 1004",
+            "postal-code": "15076 Magdalena del Mar, Lima",
+            "country": "Perú"
+        }
+    ],
+    "about-us-values": "Values",
+    "about-us-hands": [
+        "Technology",
+        "Innovation",
+        "People"
+    ],
+    "about-us-our-history": "Our history",
+    "about-us-history": {
+        "2004": {
+            "title": "Foundation",
+            "description": "The company is created and the first contracts with large companies are obtained."
+        },
+        "2009": {
+            "title": "Capital fund inflow",
+            "description": "Alarzel and an equity fund join the company to support it is growth."
+        },
+        "2010": {
+            "title": "International",
+            "description": "The Bogotá office opens, to be joined later by Mexico City, Lima, Manila and Boston."
+        },
+        "2014": {
+            "title": "Long-term agreements",
+            "description": "Long-term collaboration agreements are established with major international companies."
+        },
+        "2017": {
+            "title": "Change of name",
+            "description": "The company's name is changed to CORUS and a new phase begins."
+        },
+        "2018": {
+            "title": "New areas",
+            "description": " The activity is initiated in new areas of knowledge, expanding the solutions to our customers."
+        },
+        "2022": {
+            "title": "Growth",
+            "description": "A record growth of more than 40% was achieved, in a difficult context due to the COVID-19 pandemic."
+        }
+    },
+    "about-us-steps": {
+        "vision": {
+            "title": "Vision",
+            "description": "Redefining the future by driving innovation in a work environment that connects people and technology."
+        },
+        "mission": {
+            "title": "Mission",
+            "description": "We respond to major technological challenges with efficiency and quality, adapting to the needs of each client."
+        }
+    },
+    "about-us-cards": {
+        "quality": {
+            "title": "Quality",
+            "description": "all our projects are based on product and process quality."
+        },
+        "committed": {
+            "title": "Committed",
+            "description": "with customers, projects, employees and society."
+        },
+        "proximity": {
+            "title": "Proximity",
+            "description": "at all times, in all circumstances and with all people."
+        },
+        "creativity": {
+            "title": "Creativity",
+            "description": "we are constantly searching, learning and imagining to offer the best solutions."
+        }
+    },
+    "sectors-title": "Our success cases",
+    "solution-experience": "Our Experience",
+    "sectors-description-without-corus": "throughout its history has gained a lot of experience in different sectors, facing the needs of the present and future challenges. We have managed to humanize technology through our work and with the support of our team.",
+    "knowledge-areas": "Knowledge areas",
+    "see-more": "See more",
+    "hero-button": "See more",
+    "some-clients": "Some of our customers",
+    "hero-slides": {
+        "finance": {
+            "first-line": "Digital transformation",
+            "second-line": "for the future of business"
+        },
+        "qa": {
+            "first-line": "We create key",
+            "second-line": "high-value solutions"
+        },
+        "contact": {
+            "first-line": "20 years building",
+            "second-line": "long-lasting relationships"
+        }
+    },
+    "pyramid": {
+        "collaboration-modalities": "Collaboration modalities",
+        "team": {
+            "title": "Team",
+            "description1": "Dedicated personnel integrated in the client's",
+            "description2": "teams, both on-site and remotely."
+        },
+        "service": {
+            "title": "Service",
+            "description1": "Maintenance agreements. Development factory.",
+            "description2": "Prepaid bundle. Integral management of solutions."
+        },
+        "project": {
+            "title": "Team",
+            "description1": "Construction of customized solutions. Situation analysis.",
+            "description2": "Improvement and quality plans. Innovation."
+        },
+        "consulting": {
+            "title": "Consulting",
+            "description1": "Enterprise architectures. Frameworks design.",
+            "description2": "Decision processes. Optimization of IT processes."
+        }
+    },
+    "cards": {
+        "commitment1": {
+            "title": "Commitment",
+            "description": "with customers, employees and society"
+        },
+        "quality1": {
+            "title": "Quality",
+            "description": "in all our services and products"
+        },
+        "innovation": {
+            "title": "Innovation",
+            "description": "for the growth and evolution of the business"
+        },
+        "proximity": {
+            "title": "Proximity",
+            "description": "to respond efficiently to every challenge"
+        },
+        "quality": {
+            "title": "Quality",
+            "description": "in the contents and their reproduction"
+        },
+        "integration": {
+            "title": "Integration / API",
+            "description": "We are specialists in the integration of heterogeneous systems and in the definition of corporate APIs."
+        },
+        "processes": {
+            "title": "Processes",
+            "description": "We define, automate and optimize business processes."
+        },
+        "iot": {
+            "title": "IoT / AI",
+            "description": "We build advanced IoT, machine vision and artificial intelligence solutions."
+        },
+        "ux": {
+            "title": "UX/ UI",
+            "description": "We define adapted and attractive user experiences and interfaces."
+        },
+        "cms": {
+            "title": "CMS",
+            "description": "We develop scalable and flexible content management solutions."
+        },
+        "video": {
+            "title": "Video",
+            "description": "We simplify the viewing of video on demand and streaming video over the Internet."
+        },
+        "development": {
+            "title": "Development",
+            "description": "We build advanced, high-performance solutions."
+        },
+        "qa": {
+            "title": "Quality (QA)",
+            "description": "We manage the quality of applications and solutions."
+        },
+        "security": {
+            "title": "Security",
+            "description": "in rights management"
+        },
+        "usability": {
+            "title": "Quality",
+            "description": "in the interaction with the user"
+        },
+        "adaptation": {
+            "title": "Adaptation",
+            "description": "to each of the devices"
+        },
+        "commitment": {
+            "title": "Commitment",
+            "description": "with customers, employees and society"
+        }
+    },
+    "sectors": {
+        "media": {
+            "title": "Supporting media in the digital age",
+            "description": "<p> <b>CORUS </b> has been a pioneer in the digitization of media. Its experience covers both services and projects with leading companies in the sector, as well as new developments and innovation for digital companies. We help our clients adapt to the new digital world, achieve their business objectives and enhance their competitive advantages.</p><p><b>Content management</b>:   we work with the main content managers in the market, designing, creating and managing audiovisual content platforms in an integral way. We manage portals with millions of users in 24x7 mode, assuming responsibility for its operation, security and content management.</p><p><b>Internet video</b>: we have a long experience in the production and broadcasting of video over the Internet, both live and on demand (VOD), and are specialists in aspects such as massive distribution of content, streaming, use of CDN's and securitization of digital assets.</p><p> <b>Live \"virtual\" events</b>: we have developed solutions for the management, coordination and broadcasting of live events, making the contribution of different signals, local and/or remote participants and social content for the broadcasting of events such as conferences, presentations and live events of all kinds.</p>",
+            "cards": {
+                "quality": {
+                    "title": "Quality",
+                    "description": "in the contents and their reproduction"
+                },
+                "security": {
+                    "title": "Security",
+                    "description": "in rights management"
+                },
+                "usability": {
+                    "title": "Usability",
+                    "description": "in the interaction with the user"
+                },
+                "adaptation": {
+                    "title": "Adaptation",
+                    "description": "to each of the devices"
+                }
+            }
+        },
+        "finance": {
+            "title": "Walking towards digital transformation in the financial sector",
+            "description": "<p> <b>CORUS </b> collaborates with large companies and organizations in the financial sector in their digital transformation, helping to switch the office-based model to one based on the Internet and mobile applications, creating new services and adapting processes to the new reality demanded by customers.</p><p><b>Processes</b>:   we aid in the digitalization of our clients, participating in the initiation, definition, improvement and automation of key processes in banks and financial institutions, achieving significant improvements in productivity and predictability of operations.</p><p><b>Risk analysis</b>: risk analysis solutions have been implemented in both the public and private sectors, allowing for greater precision in the analysis of large volumes of transactions.</p><p> <b>Mobile applications</b>: We have designed and implemented mobile applications, applying the most modern usability techniques, adapting the user interfaces to the different characteristics of the clients and their ability to use digital devices.</p>",
+            "cards": {
+                "agility": {
+                    "title": "Agility",
+                    "description": "in the projects"
+                },
+                "quality": {
+                    "title": "Quality",
+                    "description": "in the processes"
+                },
+                "innovation": {
+                    "title": "Innovation",
+                    "description": "in the applications"
+                },
+                "thoroughness": {
+                    "title": "Thoroughness",
+                    "description": "in the services"
+                }
+            }
+        },
+        "insurance": {
+            "title": "Value added solutions in the insurance sector",
+            "description": "<p> <b>CORUS </b> has experience in the insurance sectors in Europe, the United States and Latin America, and is familiar with the characteristics of these businesses in the different markets and the challenges faced by their information systems.</p><p><b>Contracting and issuance</b>: we develop innovative solutions for the processes of contracting and documentation in the issuance, both for the general public and for companies and industry.</p><p><b>Claims Management</b>: we collaborate with customers of different sizes and needs in claims handling, appraisal, damage assessment, repair and replacement, improving processes and quality in customer service.</p><p> <b>Collection Management</b>: we support the improvement of processes and systems for collection management, finance and actuarial calculation, providing innovative solutions such as pay-as-you-go systems in automobile insurance.</p>",
+            "cards": {
+                "proximity": {
+                    "title": "Priximity",
+                    "description": "to respond efficiently to every challenge"
+                },
+                "experience": {
+                    "title": "Experience",
+                    "description": "of the sector and its needs"
+                },
+                "global": {
+                    "title": "Global",
+                    "description": "in multinational services"
+                },
+                "innovation": {
+                    "title": "Innovation",
+                    "description": "in solutions and applications"
+                }
+            }
+        },
+        "healthcare": {
+            "title": "Digitalization of healthcare services",
+            "description": "<p> <b>CORUS </b> has collaborated with medical service organizations to digitalize their processes, innovate in the broadcasting of their advances and in the real-time capture and process healthcare data.</p><p><b>Processes</b>: the efficient management of patient care processes, defining clinical routes that adapt to different circumstances, while maintaining physician criteria at all times, are some of the challenges that CORUS has successfully addressed in different organizations.</p><p> <b>Innovation</b>: we have collaborated in the design, construction and diffusion of solutions for the diffusion of first-rate medical solutions, managing medical knowledge in an attractive, rigorous and professional way.</p><p><b>IoT</b>: through biometric sensors, CORUS has solutions for real-time health monitoring, adapted to different contexts, from occupational health, to monitoring patients in home hospitalization.</p>",
+            "cards": {
+                "proximity": {
+                    "title": "Proximity",
+                    "description": "caring for people and their health"
+                },
+                "precision": {
+                    "title": "Precision",
+                    "description": "in health data management"
+                },
+                "security": {
+                    "title": "Security",
+                    "description": "in privacy protection"
+                },
+                "innovation": {
+                    "title": "Innovation",
+                    "description": "in the use of technology and health"
+                }
+            }
+        },
+        "industry": {
+            "title": "Creating Industry 4.0",
+            "description": "<p> <b>CORUS </b> has the expertise to design, build and implement advanced digitalization solutions in the industrial sector. Our success stories range from the design and construction of industrial sensors, through real-time data ingestion and analysis, to AI-based systems to anticipate events.</p><p><b>Hardware</b>: our engineering team has designed and developed advanced sensors and devices for military and industrial systems, with high performance and capacity. Ready to work efficiently in any condition.</p><p><b>Monitoring</b>: we have developed solutions for the transmission, processing and monitoring of real-time information, receiving millions of records per hour and responding in a few milliseconds to any relevant event.</p><p><b>Artificial Intelligence</b>: we apply electronic vision, pattern recognition and machine learning techniques to systems, both on stored data and data received in real time, adding value to the final system.</p>",
+            "cards": {
+                "innovation": {
+                    "title": "Innovation",
+                    "description": "in the application of ICT to industry"
+                },
+                "quality": {
+                    "title": "Quality",
+                    "description": "building robust and reliable solutions"
+                },
+                "adaptation": {
+                    "title": "Adaptation",
+                    "description": "to each of the needs and contexts"
+                },
+                "effectivity": {
+                    "title": "Effectivity",
+                    "description": "in providing added-value solutions"
+                }
+            }
+        },
+        "consumer": {
+            "title": "Transforming FMCG distribution",
+            "description": "<p>We have aided the distribution and consumer goods industry in the improvement of their information systems, definition and automation of their processes, and the definition and construction of advanced digital solutions.</p><p><b>Know the customer</b>: we build solutions to improve customer insight, especially in digital channels, obtaining valuable information, processing the data and obtaining predictions about customer behavior, resulting in higher profitability for the company.</p><p><b>Process improvement</b>: using knowledge and data about different companies in the sector we optimize processes, automating repetitive tasks and focusing on the most valuable aspects of customer service.</p><p><b>Advanced applications</b>: we define and implement innovative solutions that offer user experiences adapted to each circumstance, responding with speed, ergonomics and satisfaction to different customer needs.</p>",
+            "cards": {
+                "proximity": {
+                    "title": "Proximity",
+                    "description": "putting the customer at the center"
+                },
+                "engagement": {
+                    "title": "Engagement",
+                    "description": "with the results and the contribution of value"
+                },
+                "quality": {
+                    "title": "Quality",
+                    "description": "in the solutions delivered"
+                },
+                "innovation": {
+                    "title": "Innovation",
+                    "description": "to differentiate our customers' brand"
+                }
+            }
+        }
+    },
+    "solutions": {
+        "integration-api": {
+            "title": "Systems integration / API",
+            "title2": "Keys to systems integration",
+            "description": "<p> The information systems of organizations are composed of a large number of <b>heterogeneous solutions that need to be integrated</b> into a coherent and manageable model that serves the business, now and in the future.</p><p>And it is precisely because of this need for interoperability between cloud, on-premise, mobile, sensor and social network services and applications, where the evolution from the traditional concept of integration platform (EAI/ESB) to the hybrid integration platform (HIP) and EiPaaS enterprise tools comes in.</p><p>This evolution of integration platforms is ideally complemented by today's APIS and microservices exposure and management tools.</p><p>Undoubtedly, system integration and API management have become a <b>key part of enterprise architectures.</b></p>",
+            "experience": "<p>One of the main hallmarks of <b>CORUS</b> is its firm commitment to convert the integration of systems and information of companies in <b>the foundations of their own digital transformation.</b></p><p>We collaborat with companies of multiple sectors and sizes in <b>the definition of their data integration model, their system architecture, and APIfication of their services</b>, in a constant search for <b>efficiency, agility, and alignment with business.</b></p><p>To this end, we collaborate with the architecture and application development teams to establish well-defined system governance mechanisms, allowing its evolution from the current situation to the target model and taking into account the changes that will occur due to the evolution of the business in a highly competitive environment.</p><p>We invite you to <b>rethink your company's current integration strategy</b>, new platform(s) may be needed to extend your existing platforms to your current solution in the face of the technological challenges ahead. Our goal for the near future is to provide businesses with a self-service model applied to the world of integration.</p>",
+            "cards": {
+                "independence": {
+                    "title": "Independence",
+                    "description": "Each of the pieces of the architecture must be able to evolve independently, or even be replaced by an equivalent one, without affecting the whole, avoiding coupling between them."
+                },
+                "documentation": {
+                    "title": "Documentation",
+                    "description": "All systems, their responsibilities and interconnections must be fully documented, facilitating the identification of risks before any intervention or change."
+                },
+                "security": {
+                    "title": "Security",
+                    "description": "All the elements of the architecture, each one of the systems and the communications between them must take into account information security for their design, implementation and deployment."
+                },
+                "flexibility": {
+                    "title": "Flexibility",
+                    "description": "The goal should always be to allow maximum flexibility in the evolution of each of the systems independently, the incorporation of new systems, and to facilitate the retirement of obsolete systems."
+                }
+            }
+        },
+        "process": {
+            "title": "Processes",
+            "title2": "Modalities of service",
+            "description": " <p>            We are specialists in the transformation and governance of business            processes, enterprise architecture management and the technologies            that support these disciplines.          </p>          <p>            Our vocation is to improve people's experience and organizations'            performance through a business process-centric approach inspired by            innovation and technology.          </p>          <p>            We apply design principles and practices to help organizations create            value, increase their competitive advantage, transform and improve            their business, and align with the ever-changing environment.          </p>",
+            "experience": "<p>          A process-driven organisation encourages and enables its business          processes to be oriented towards improving the customer experience and          integrating agilely and efficiently with its teams and applications.          <strong            >Performance is not a matter of luck but of design and adaptability            to change.</strong          >        </p>        <p>          We are a team of professionals, with extensive practical experience          from different disciplines, who work together offering an efficient          combination of analytical and creative thinking as an essential          element to tackle transformation and process management projects          through the objective analysis of the situation and the incorporation          of innovative ideas.        </p>        <p>          We work with tools and methodologies that allow a high level of          cooperation with our clients, maintaining a global and integrated          approach, both at the governance level and in the design, change and          implementation of business processes.        </p>",
+            "cards": {
+                "governance": {
+                    "title": "Governance",
+                    "description": " Process governance defines the framework for services, architecture,                    standards, policies, roles and responsibilities with the intent to                    manage the design, improve, and implement the processes and                    applications."
+                },
+                "design": {
+                    "title": "Design and innovation",
+                    "description": " We collaborate in the necessary activities to drive change and                    continuous process through identification, documentation, modeling,                    analysis, optimization and innovation."
+                },
+                "process": {
+                    "title": "Process mining",
+                    "description": " Process Mining is an innovative approach to discover, understand,                    analyze and improve processes by analyzing transactional data from                    systems. Corus is an official partner of CELONIS and ARIS,                    recognized by market analysts as the leading Process Mining tools."
+                },
+                "enterprise": {
+                    "title": "Enterprise Architecture",
+                    "description": "The analysis, definition and documentation of information systems                    architectures in order to relate the strategy and vision of the                    business through the alignment of the processes and the deployment                    of information technologies."
+                },
+                "aris": {
+                    "title": "ARIS y Alfabet",
+                    "description": "They provide an integrated product solution that supports            organizations in improving their processes and the technology that            underpins them, covering all phases of business process analysis and            management projects, transformation, and IT portfolio management."
+                }
+            }
+        },
+        "iot-ai": {
+            "title": "IoT & IA",
+            "title2": "Areas of action",
+            "description": "  <p>          IoT allows real-time sensorization and monitoring of environments,          machines, and people. This detection must be adjusted to each          circumstance and carefully not interfere with the element that          displays.        </p>        <p>          The sending of information from remote systems and IoT servers must be          adapted to the different connectivity capabilities. For this, a study          must be carried out to design and implement the best solution for each          case, guaranteeing that the information remains secure and complete          throughout .        </p>        <p>          On the information obtained, in addition to tracking and monitoring,          we can establish thresholds using rules, trend analysis with time          series analysis, as well as discovery and identification of complex          patterns through Machine Learning techniques. All of these techniques          allow us to anticipate risk situations and maintenance needs.        </p>        <p>          Additionally, the use of artificial vision and recognition systems          through AI enable the identification of colors, shapes and          trajectories that allows IoT solutions to go further, being able to          act in an efficient way on unforeseen elements.        </p>        <p>          With all these elements and carefully analyzing customer needs,          <strong><span>CORUS</span></strong> IoT systems          not only collect and analyze information, they also allow acting on          remote elements, and automatically sending alerts, commands and orders          to devices and people. This way the IoT solutions become high value          systems.        </p>",
+            "experience": " <p>          <strong><span>CORUS</span></strong> has designed          and implemented solutions for the protection of workers in industrial          environments and service sectors, allowing for the          <strong>anticipation of risk situations</strong>, alerting workers and          notifying supervisors in case of incidents.        </p>        <p>          Capabilities for          <strong>real-time image analysis using AI</strong> has allowed          <strong><span>CORUS</span></strong> to develop          advanced systems for the detection of vehicles, analysis of volumes in          warehouses, identification of people and their proximity to virtual          barriers, etc.        </p>        <p>          Our team is prepared to          <strong            >face any challenge in the industrial and health environment</strong          >, having a wide range of specialists in the different disciplines          that ensure the quality and adaptation of solutions to each          environment.        </p>",
+            "cards": {
+                "location": {
+                    "title": "Location",
+                    "description": "Tracking of vehicles, people and machinery, both outdoors (GPS) and indoors (Beacons)."
+                },
+                "environment": {
+                    "title": "Environment",
+                    "description": "Capture and analysis of environmental values such as temperature, oxygen, CO2, gases, dust, etc."
+                },
+                "artificial-vision": {
+                    "title": "Artificial vision",
+                    "description": "Recognition systems for objects, colors, shapes, volumes, trajectories, etc."
+                },
+                "health": {
+                    "title": "Health",
+                    "description": "Analysis of biometric constants of workers, people undergoing medical treatment, or athletes"
+                },
+                "machines": {
+                    "title": "Machines",
+                    "description": "Reception and processing of all machine sensors, both current and legacy."
+                }
+            }
+        },
+        "ux": {
+            "title": "UX / UI",
+            "title2": "Design Thinking",
+            "description": " <p>          Adequately defining the user experience, as well as the sensation,          feeling, emotional response, User evaluation and satisfaction with a          product/service is key to its success. It's necessary to care at all          times about the interaction of people with our designs.        </p>        <p>          The user interface design of the applications contemplates the          selection of the appropriate elements to achieve and organize the          screen in a way that is easier for the user to understand and use. The          objective is to make the user interaction as efficient and simple as          possible.        </p>        <p>          New environments and devices, such as voice assistants, virtual          environments or augmented reality, require new interaction and          usability models that allow the user to act naturally, simple and          satisfying, without fanfare, and without having to think about it.        </p>",
+            "experience": "<p>          At <strong><span>CORUS</span></strong> we have          collaborated with organizations from different sectors in the          definition and design of <strong>digital solutions</strong> for          computers, tablets, smartphones and devices,          <strong>conversational solutions</strong> for virtual assistants like          Alexa and Echo, and <strong>augmented reality solutions</strong> for          smart glasses.        </p>        <p>          Our team works          <strong            >experimentally and in detail to adapt the interface to the            needs</strong          >          of each product, of the channels of communication and interaction of          the user, and their capacities and abilities for the device          management.        </p>        <p>          Designing an application for a          <strong>business environment</strong> is not the same as designing a          solution for the <strong>industrial</strong> environment, where the          capabilities of interaction with keyboards and screens is limited, or          the <strong>health</strong> of workers or the elderly. We have carried          out projects in different environments and sectors that allow us to          successfully address new forms of interaction with the user.        </p>",
+            "cards": {
+                "empathize": {
+                    "title": "Empathize",
+                    "description": "It should start with understanding the needs of the users and their environment. We must be able to put ourselves in their situation to generate coherent solutions."
+                },
+                "define": {
+                    "title": "Define",
+                    "description": "We must synthesize the collected information and keep what adds value and interesting perspectives. We will identify problems which solutions will be key to obtain an innovative and useful result."
+                },
+                "devise": {
+                    "title": "Devise",
+                    "description": "It aims to generate endless options. In this phase, the activities favor the expansive thinking, and we must eliminate value judgments. Sometimes the most outlandish ideas are the ones generating visionary solutions."
+                },
+                "prototype": {
+                    "title": "Prototype",
+                    "description": "We make the ideas come true. Building prototypes makes them palpable and helps us visualize possible solutions, highlighting elements that we must improve or refine."
+                },
+                "check": {
+                    "title": "Check",
+                    "description": "We will test our prototypes with the users involved in the solution we are developing. this phase is crucial, and it will help us identify significant improvements, bugs to solve, possible deficiencies. This garantees we get the MVP."
+                }
+            }
+        },
+        "cms": {
+            "title": "Content Management Systems",
+            "title2": "Quality in all phases",
+            "description": " <p>          Successfully managing the digital experience of customers across          different channels, platforms or markets is complex.          <strong><span >CORUS</span></strong> helps its          clients create the best user experience throughout this process.          Through our design services, content management, implementation and          integration of CMS and eCommerce platforms, we create new ways of          success and innovation for our clients.        </p>        <p>          Increase online B2B revenue, create new self-service experiences for          customers, integrate different systems into the company's web platform          or managing audiovisual content effectively are new challenges in          which <strong><span >CORUS</span></strong> has the          experience and proven guarantee of success.        </p>        <p>          Our experience in <em>open source</em> CMS environments such as          WordPress, Drupal, Joomla and other platforms gives us a service that          contemplates all aspects of a professional solution, with 360º vision          and 24x7 assistance.        </p>",
+            "experience": " <p>          <strong><span>CORUS</span></strong> implements          high-performance, high-complexity sites for organizations of multiple          sectors, from health, to news agencies, through specialized video          sites, corporate websites, etc.        </p>        <p>          In each case the design, content, infrastructure and security are          adapted to the requirements of each organization, offering a complete          solution, covering all aspects of construction and exploitation of a          professional CMS.        </p>        <p>          We currently maintain and operate more than 100 sites, in 40          countries, with millions of visits monthly, providing 24x7 support to          the infrastructure, and working with the client's teams for the          maintenance and content management.        </p>",
+            "cards": {
+                "design": {
+                    "title": "Design",
+                    "description": "From the information's structure to the interaction with the user, going through the style."
+                },
+                "construction": {
+                    "title": "Construction",
+                    "description": "Creation of templates, plugins and customized solutions for the needs of each client and content."
+                },
+                "maintenance": {
+                    "title": "Maintenance",
+                    "description": "Evolution of the sites guaranteeing their updates and adaptation to the needs of each moment."
+                },
+                "deployment": {
+                    "title": "Deployment",
+                    "description": "Design, implementation and management of high performance infrastructures for the most demanding sites."
+                },
+                "security": {
+                    "title": "Security",
+                    "description": "Advanced protection of the sites to guarantee their success against attacks and intrusions."
+                }
+            }
+        },
+        "video": {
+            "title": "Video",
+            "title2": "Internet video keys",
+            "description": "   <p>          Today, Internet video consumption is fully integrated into the digital          experience of customers, both in video on demand (VOD) and live          (streaming). From the big content platforms, going through news sites,          social networks, even videoconferences, we find some of the most          important formats for entertainment, communication and business.        </p>        <p>          The production and transmission of video content over the Internet          requires a series of techniques, tools and specific methodologies to          guarantee the quality of the experience, the speed of response and the          security of the content. The use of CDN services, the security of          digital assets and the management of an optimal user experience are          fundamental aspects.        </p>        <p>          Video-based websites, players, image and sound quality in different          network conditions, adaptation for different devices and platforms and          the correct management of rights must be taken into account for the          success of the communication.        </p>",
+            "experience": "<p>          <strong><span>CORUS</span></strong> has the          experience of managing audiovisual platforms with millions of users,          and has managed and produced sporting and artistic events for mass          audiences, certifying the security of these digital assets, and taking          care of the entire life cycle of audiovisual content. Our team of          professionals ranges from production, issuance, processing of          specialized video sites, the construction of players, the management          of advanced statistics, the use of content distribution networks, and          rights management.        </p>        <p>          We work for companies in media, entertainment, training, popular          science, social networks and corporations from all sectors, who wish          to offer a quality content, with high user attendance and safety.        </p>",
+            "cards": {
+                "content": {
+                    "title": "Content",
+                    "description": "Production of live videos, content on demand, interactive content adapted for broadcast in Internet."
+                },
+                "videosites": {
+                    "title": "Video sites",
+                    "description": "Construction of specific solutions for audiovisual content, facilitating its indexing by search engines and taking care of the user experience."
+                },
+                "player": {
+                    "title": "Player",
+                    "description": "Players that adapt to the formats, contents, situations of the communications network, with simple and friendly user interfaces."
+                },
+                "cdn": {
+                    "title": "CDN",
+                    "description": "Delivery of high-capacity content, guaranteeing the best connection in all circumstances, bringing the delivery point to each user's location."
+                },
+                "copyright": {
+                    "title": "Copyright",
+                    "description": "Comprehensive management of viewing rights, by geographic region, concurrence, pay per view, etc."
+                }
+            }
+        },
+        "develop": {
+            "title": "Development",
+            "title2": "App building",
+            "description": " <p>          The construction of business solutions must be based on a development          architecture that facilitates the efficiency and effectiveness of work          teams. This productivity is key to being able to deliver quality          functionalities in time, to add value to the business.        </p>        <p>          One of the main elements for the productivity and predictability of          development is the definition and use of a consistent and proven model          of reusable components. This way, each functionality is encapsulated          in a clearly defined piece that can be used by all members of the team          with the peace of mind that it is a well-built and tested part.        </p>        <p>          Another key to the interconnection of systems, both internal and          externally, is the definition and use of APIs. A well-defined          programming interface allows each team to interact with the rest of          the systems in an organized, coherent and secure way.        </p>        <p>          In order to build quality systems, solutions and applications, we must          have highly qualified teams, cohesive and who know how to work with          agility and responsibility. Development teams must be able to          efficiently face each challenge that is presented to them, applying          the architecture, Component model and defined API.        </p>",
+            "experience": "  <p>          We collaborate with companies of a wide range sectors and sizes          building solutions, establishing application architecture, defining          component models and establishing APIs that allow us to offer quality          functionalities, scalable and maintainable.        </p>        <p>          We have highly qualified teams in Javascript development, both front          -with frameworks and React, Angular or Vue-, and back, with Node. We          collaborate with the Javascript community, participating actively in          the definition of the language in the committee TC39 of          standardization of EcmaScript.        </p>        <p>          Together with the UX/UI team, we develop solutions for all types of          environments: desktop, mobile applications, conversational systems          based on voice assistants, and virtual reality environments.        </p>",
+            "cards": {
+                "design": {
+                    "title": "Design",
+                    "description": "Definition of business rules, interconnections, responsibility models, user interfaces and information flows."
+                },
+                "code": {
+                    "title": "Code",
+                    "description": "Construction of solutions, components and systems, following quality criteria and documentation that allows its maintenance and evolution."
+                },
+                "deployment": {
+                    "title": "Deployment",
+                    "description": "Deliver proven, efficient and scalable systems that are capable of working in changing and dempanding environments."
+                },
+                "monitoring": {
+                    "title": "Monitoring",
+                    "description": "Know the performance and possible failures in the different execution contexts in an automated and transparent way."
+                },
+                "optimization": {
+                    "title": "Optimization",
+                    "description": "Establish continuous improvement models that allow systems and applications to evolve, adapting to the needs of the business at all time."
+                }
+            }
+        },
+        "qa": {
+            "title": "Quality assurance",
+            "title2": "Quality",
+            "description": "<p>          Any quality assurance model must begin by establishing a quality          culture, which always takes into consideration the delivery of          revised, well-built, robust and adaptable products.        </p>        <p>          Once this culture is assumed by the organization, the creation of          quality control teams allows us to have a greater specialization in          the methodologies, techniques and tools necessary for a correct          assurance of the quality of our products and processes.        </p>        <p>          Quality should be measured as a means to improvement. If something is          not measured, it is very difficult to improve it. This measurement          must take into account the unique characteristics of each project,          including each team and circumstance.        </p>        <p>          Quality involves testing, both manual and automated. Manual testing is          still important to guarantee the correct adequacy of the solutions to          the specifications, as well as the ergonomics and usability of          interfaces. Automated tests make it possible to guarantee standards          that every product must comply, as well as facilitate the stability of          solutions in the face of changes and modifications.        </p>",
+            "experience": "  <p>          <strong><span>CORUS</span></strong> has strong          quality culture established in its organization. Our teams carry out          tests and reviews for all phases of the solution construction process,          allowing the delivery of products of high quality and reliability.        </p>        <p>          We have specialized teams in the definition, implementation and          construction of automated test environments that adjust to the needs          of each organization, the available data, the equipment work, and          deployment systems used.        </p>        <p>          We have collaborated with organizations from different sectors in the          creation of quality teams and methodologies, as well as its          implementation in the teams, facilitating the transition to a model          based on quality in all the processes and activities.        </p>",
+            "cards": {
+                "functional": {
+                    "title": "Functional",
+                    "description": "Solutions are checked for compliance with functional requirements, business rules and established information flows."
+                },
+                "internal": {
+                    "title": "Internal",
+                    "description": "The internal quality of the products, the code, the APIs and all the elements used for the construction of the right solution."
+                },
+                "efficiency": {
+                    "title": "Efficiency",
+                    "description": "Through stress tests, the responsiveness of the solution is verified, as well as its ease to scale in high demand situations."
+                },
+                "documentation": {
+                    "title": "Documentation",
+                    "description": "The guides, aids, designs and internal models must also be reviewed from a quality point of view. In order to maintain and deploy value solutions, it is necessary to guarantee that the documentation is correct and is updated at all times."
+                }
+            }
+        }
+    }
+}

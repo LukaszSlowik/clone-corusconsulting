@@ -1,0 +1,394 @@
+@media (prefers-color-scheme: dark) {
+  c-header nav ul li:hover > a {
+    color: var(--st-color-4) !important;
+  }
+  c-header nav ul li:hover a svg {
+    stroke: var(--st-color-4) !important;
+  }
+  c-header .lines {
+    background-color: var(--st-color-1) !important;
+  }
+}
+c-header {
+  display: block;
+  height: 64px;
+}
+.content-header {
+  background-color: var(--st-bg-color);
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 8000;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.15);
+}
+c-header c-logo {
+  margin-top: 10px;
+  position: fixed;
+  z-index: 9999;
+  left: 10%;
+}
+c-header c-logo svg {
+  width: 110px;
+}
+c-header .hamburger {
+  visibility: hidden;
+}
+c-header .content-header.transparent {
+  background-color: transparent;
+  transition: background-color 0.5s ease-out;
+  box-shadow: none;
+}
+c-header .content-header.transparent div nav {
+  background-color: transparent;
+  transition: background-color 0.5s ease-out;
+}
+c-header .content-header.transparent div nav ul li ul {
+  background-color: rgba(43, 43, 43, 0.8);
+  border: 2px solid var(--st-color-0);
+  top: 50px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+c-header .content-header.transparent div nav ul li ul li:hover a {
+  background-color: var(--st-color-0);
+  text-shadow: none;
+}
+c-header .content-header.transparent nav ul li a svg {
+  stroke: var(--st-color-0);
+  filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.3));
+}
+c-header .content-header.transparent nav ul li:hover a svg {
+  stroke: var(--st-color-4);
+}
+c-header .content-header.transparent nav ul li a {
+  color: var(--st-color-0);
+  text-shadow: 1px 1px 4px rgba(43, 43, 43, 0.3);
+}
+c-header .content-header.transparent nav ul li:hover > a {
+  color: var(--st-color-4);
+  text-decoration: none;
+}
+
+c-header .content-header.transparent nav ul li ul:before {
+  border: solid;
+  border-color: var(--st-color-0) transparent;
+  border-width: 0 8px 8px 8px;
+  top: -9px;
+  content: "";
+  left: 16px;
+  position: absolute;
+  z-index: 0;
+}
+c-header .content-header.transparent nav ul li ul:after {
+  border: solid;
+  border-color: var(--st-color-9) transparent;
+  border-width: 0 5px 5px 5px;
+  top: -5px;
+  content: "";
+  left: 19px;
+  position: absolute;
+  z-index: 1;
+}
+c-header
+  .content-header.transparent
+  nav
+  ul
+  li
+  ul:after:has(li:first-child:hover) {
+  border-color: var(--st-color-0) transparent;
+}
+c-header nav {
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  background-color: var(--st-bg-color);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 10%;
+  z-index: 9000;
+}
+
+c-header nav ul {
+  display: flex;
+  list-style: var(--st-link-style);
+  align-items: center;
+}
+
+c-header nav ul li a {
+  margin-left: calc(var(--st-space) * 3);
+  margin-right: calc(var(--st-space) * 3);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+c-header nav ul li:hover > a {
+  color: var(--st-color-3);
+  text-decoration: none;
+}
+
+c-header nav ul li:hover {
+  transform: translate(0, -1px);
+  transition:
+    transform 300ms ease-out,
+    color 300ms ease-out;
+}
+c-header nav ul li:first-child {
+  margin-top: 0;
+}
+
+c-header nav ul li ul li:first-child,
+c-header nav ul li ul li:last-child {
+  transform: translate(0, 0);
+  transition:
+    transform 300ms ease-out,
+    color 300ms ease-out;
+}
+
+c-header nav ul > li {
+  height: 64px;
+  padding: 1em 0;
+}
+
+c-header nav ul li a svg {
+  width: 28px;
+}
+
+c-header nav ul li a svg {
+  stroke: var(--st-fore-color);
+}
+
+c-header nav ul li:hover a svg {
+  stroke: var(--st-color-3);
+}
+
+c-header .dropDownMenu {
+  display: none;
+}
+
+c-header nav ul li:hover .dropDownMenu {
+  display: block;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.16);
+}
+
+c-header nav ul li ul {
+  background-color: var(--st-bg-color);
+  position: fixed;
+  top: 56px;
+  min-width: 160px;
+  margin: var(--st-space);
+  border-radius: var(--st-border-radius);
+}
+
+c-header nav ul li ul li {
+  height: 36px;
+  padding: 0;
+}
+
+c-header nav ul li ul li a {
+  color: var(--st-fore-color);
+  height: 36px;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-left: calc(var(--st-space) * 3);
+  display: block;
+}
+
+c-header nav ul li ul p {
+  font-size: 9px;
+  color: var(--st-color-2);
+  text-transform: uppercase;
+}
+
+c-header nav ul li ul li:hover {
+  background-color: var(--st-color-1);
+}
+
+c-header nav ul li ul li:hover a {
+  color: var(--st-color-3);
+  background-color: var(--st-color-1);
+}
+
+c-header nav ul li .arrow-down-up {
+  position: relative;
+  top: 2px;
+}
+
+c-header nav ul li:hover .arrow-down-up {
+  transform: scaleY(-1);
+  transition:
+    transform 100ms ease-out,
+    stroke 300ms ease-out;
+  stroke: var(--st-color-3);
+}
+@media only screen and (max-width: 1125px) {
+  c-header nav ul li .dropDownMenu {
+    margin-top: -4em;
+  }
+  c-header {
+    position: fixed;
+    z-index: 9999;
+  }
+  c-header nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: var(--st-color-2);
+    transform: translateX(100%);
+    transition: all 400ms ease-in;
+    z-index: 400;
+  }
+
+  c-header nav a:hover {
+    text-decoration: none;
+  }
+
+  c-header nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  c-header nav li {
+    color: var(--st-color-9);
+    font-size: var(--st-font-size-l);
+    opacity: 0;
+    transform: translateY(2%);
+    transition: all 300ms ease-in;
+    cursor: pointer;
+    padding-top: 1em;
+  }
+
+  c-header nav > ul {
+    list-style: none;
+    height: 80%;
+  }
+  c-header nav ul > li {
+    height: auto;
+  }
+
+  c-header nav ul li svg {
+    stroke: var(--st-color-9);
+  }
+
+  c-header nav ul li ul {
+    background-color: transparent;
+    position: relative;
+    margin-left: 1em;
+  }
+  c-header nav ul li ul li:hover {
+    background-color: transparent;
+  }
+  c-header nav ul li ul li:hover {
+    background-color: var(--st-color-2);
+  }
+
+  c-header nav ul li ul li:hover a {
+    color: var(--st-color-3);
+    background-color: var(--st-color-2);
+  }
+  c-header nav ul li ul li:last-child {
+    margin-bottom: 2em;
+  }
+  c-header nav ul li:hover .dropDownMenu {
+    box-shadow: none;
+  }
+
+  c-header nav.active {
+    transform: translateX(0%);
+    opacity: 1;
+    z-index: 900;
+  }
+
+  c-header nav.active li:nth-child(1) {
+    transition-delay: 0.4s;
+  }
+
+  c-header nav.active li:nth-child(2) {
+    transition-delay: 0.5s;
+  }
+
+  c-header nav.active li:nth-child(3) {
+    transition-delay: 0.6s;
+  }
+
+  c-header nav.active li:nth-child(4) {
+    transition-delay: 0.7s;
+  }
+
+  c-header nav.active li:nth-child(5),
+  c-header nav.active li:nth-child(6),
+  c-header nav.active li:nth-child(7) {
+    transition-delay: 0.8s;
+  }
+
+  c-header nav.active li {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+
+  c-header .hamburger {
+    visibility: visible;
+    width: 2em;
+    height: 1.8em;
+    margin: 1.4em;
+    z-index: 9999;
+    cursor: pointer;
+    position: fixed;
+    left: 80%;
+  }
+
+  c-header .hamburger div {
+    margin-top: 7px;
+  }
+
+  c-header .lines {
+    background-color: var(--st-color-9);
+    width: 100%;
+    height: 2px;
+    margin: -5px 0;
+    transition: all 450ms ease-in;
+  }
+  c-header .transparent .lines {
+    background-color: var(--st-color-0);
+  }
+
+  c-header .close-hamburger .lines {
+    cursor: pointer;
+    z-index: 9999;
+  }
+
+  c-header .close-hamburger .line-top {
+    transform: translateY(200%) rotate(45deg);
+  }
+
+  c-header .close-hamburger .line-mid {
+    opacity: 0;
+  }
+
+  c-header .close-hamburger .line-bottom {
+    transform: translateY(-200%) rotate(135deg);
+  }
+
+  /* TRANSPARENT - HOME */
+  c-header .content-header.transparent div nav {
+    background-color: var(--st-color-2);
+  }
+  c-header .content-header.transparent div nav ul li ul {
+    background-color: transparent;
+    border: none;
+    top: 60px;
+    box-shadow: none;
+  }
+  c-header .content-header.transparent nav ul li ul:before {
+    border: none;
+  }
+  c-header .content-header.transparent nav ul li ul:after {
+    border: none;
+  }
+  c-header .content-header.transparent div nav ul li ul li:hover a {
+    background-color: transparent;
+  }
+}
