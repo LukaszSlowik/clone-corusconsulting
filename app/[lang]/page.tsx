@@ -37,7 +37,16 @@ type Props = {
 export default async function Home({ params }: Props) {
   const dictionary = await getDictionary(params.lang);
   return (
-    <div className="">
+    <div className="pt-[200px]">
+      <div>
+        <Image
+          src={"/img/favicon.svg"}
+          alt="logo"
+          width={100}
+          height={100}
+          className=" p-4"
+        />
+      </div>
       <div
         className="relative  h-[100vh] w-full   bg-[url('/img/tunnel.jpg')] bg-cover bg-center"
         style={

@@ -8,11 +8,16 @@ import MotionShowWrapper from "@/components/motion-show-wrapper";
 import ContactForm from "@/components/contact-form";
 import { Locale } from "@/i18n.config";
 import { getDictionary } from "@/lib/dictionary";
+import { Metadata } from "next";
 
 type Props = {
   params: {
     lang: Locale;
   };
+};
+
+export const metadata: Metadata = {
+  title: "Contact | Clone of Corus",
 };
 
 const Page = async ({ params }: Props) => {

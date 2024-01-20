@@ -15,13 +15,25 @@ import Cms from "../components/svgs/cms";
 import Video from "../components/svgs/video";
 import Develop from "../components/svgs/develop";
 import Qa from "../components/svgs/qa";
-
+import type { Metadata, ResolvingMetadata } from "next";
 type Props = {
   params: {
     lang: Locale;
     solution: string;
   };
 };
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { lang: Locale; solution: string };
+}): Promise<Metadata> {
+  const id = params.solution;
+  const idUpperFirst = id.charAt(0).toUpperCase() + id.slice(1);
+  return {
+    title: `${idUpperFirst} | Clone Corus`,
+  };
+}
 const svgs = {
   "integration-api": <IntegrationApi />,
   process: <Process />,

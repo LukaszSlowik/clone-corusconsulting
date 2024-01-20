@@ -2,8 +2,6 @@ import React from "react";
 import TwoColumnsWrapper from "./two-columns-wrapper";
 import { DictionaryType } from "@/lib/dictionary";
 import HtmlFromJson from "@/components/html-from-json";
-import Image from "next/image";
-import IntegrationApi from "./svgs/integration-api";
 
 type Props = {
   solution: string;
@@ -18,8 +16,7 @@ const SolutionFirstPart = ({ solution, dictionary, svg }: Props) => {
   const description =
     dictionary.solutions[solution as keyof typeof dictionary.solutions]
       .description;
-  //   const title = "test";
-  //   const description = "test";
+
   return (
     <TwoColumnsWrapper className="pt-2">
       <TwoColumnsWrapper.LeftColumn>
@@ -29,10 +26,7 @@ const SolutionFirstPart = ({ solution, dictionary, svg }: Props) => {
         </div>
       </TwoColumnsWrapper.LeftColumn>
 
-      <TwoColumnsWrapper.RightColumn>
-        {/* <IntegrationApi /> */}
-        {svg}
-      </TwoColumnsWrapper.RightColumn>
+      <TwoColumnsWrapper.RightColumn>{svg}</TwoColumnsWrapper.RightColumn>
     </TwoColumnsWrapper>
   );
 };

@@ -22,7 +22,7 @@ const SolutionSteps = ({ dictionary, solution }: Props) => {
     dictionary.solutions[solution as keyof typeof dictionary.solutions];
 
   return (
-    <div className="relative overflow-hidden pb-20 dark:bg-[#414141]">
+    <div className="relative overflow-hidden bg-[#f9f8f8] pb-20 dark:bg-[#414141]">
       <div
         className=" absolute left-0 right-0 top-[199px] md:[border-bottom:15px_solid_transparent]   "
         style={{ borderImage: `url('/img/border.png') 15 round` }}

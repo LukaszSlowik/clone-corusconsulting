@@ -133,45 +133,20 @@ export default async function RootLayout({
 
   return (
     <html lang={params.lang} suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/img/favicon.png" sizes="any" />
+      </head>
       <body
         className={`${montserrat.variable} font-montserrat max-xxs:hyphens-auto`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          // enableSystem
-          // disableTransitionOnChange
-        >
+        <ThemeProvider attribute="class" defaultTheme="system">
           <Header
             lang={params.lang}
             dictionary={dictionary}
             navSubLinks={navSubLinks}
           />
 
-          <div className="bg-white dark:bg-dark">
-            {/* <svg height="500" width="500" className="scale-50  ">
-              <polygon
-                points="250,0 0,500 500,500" //
-                className="triangle fill-transparent stroke-black stroke-[4px]"
-              />
-              Sorry, your browser does not support inline SVG.
-            </svg>
-
-            <div className="border:dark relative mx-auto h-[200px] w-[200px] border-2 border-white bg-dark opacity-70 ">
-              <svg
-                height="20"
-                width="20"
-                className=" absolute bottom-[100%] left-[10%] right-0   fill-dark "
-              >
-                <polyline
-                  points="0,20 10,0  20,20" //
-                  className="triangle  stroke-white stroke-[4px]"
-                />
-                Sorry, your browser does not support inline SVG.
-              </svg>
-            </div> */}
-            {children}
-          </div>
+          <div className="bg-white dark:bg-dark">{children}</div>
           <Footer lang={params.lang} dictionary={dictionary} />
         </ThemeProvider>
       </body>

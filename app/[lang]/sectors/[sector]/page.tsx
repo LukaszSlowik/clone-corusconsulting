@@ -8,10 +8,23 @@ import { DictionaryType } from "@/lib/dictionary";
 import { getDictionary } from "@/lib/dictionary";
 import { sectorsCards } from "@/data/sectors-cards";
 import { sectorsClients } from "@/data/sectors-clients";
+import { Metadata } from "next";
 
 type Props = {
   params: { lang: Locale; sector: string };
 };
+export async function generateMetadata({
+  params,
+}: {
+  params: { lang: Locale; sector: string };
+}): Promise<Metadata> {
+  const id = params.sector;
+  const idUpperFirst = id.charAt(0).toUpperCase() + id.slice(1);
+  return {
+    title: `${idUpperFirst} | Clone Corus`,
+  };
+}
+
 // const cards = [
 //   {
 //     name: "quality",

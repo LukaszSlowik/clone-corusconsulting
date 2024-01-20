@@ -5,11 +5,15 @@ import Hands from "./components/hands";
 import AboutUsSteps from "./components/about-us-steps";
 import AboutUsValues from "./components/about-us-values";
 import AboutUsHistory from "./components/about-us-history";
+import { Metadata } from "next";
 
 type Props = {
   params: {
     lang: Locale;
   };
+};
+export const metadata: Metadata = {
+  title: "About Us | Clone of Corus",
 };
 
 const Page = async ({ params }: Props) => {
