@@ -48,7 +48,7 @@ const clients = [
         className="w-full grayscale hover:grayscale-0"
       />
     ),
-    link: "https://www.mongodb.com/",
+    link: "https://www.ariscommunity.com/",
   },
   {
     name: "Celonis",
@@ -58,7 +58,7 @@ const clients = [
   {
     name: "Kubernetes",
     logo: <Kubernetes />,
-    link: "https://www.mongodb.com/",
+    link: "https://kubernetes.io/",
   },
   {
     name: "Mulesoft",

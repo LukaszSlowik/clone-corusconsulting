@@ -25,20 +25,6 @@ const MotionCardSections = ({
 
   const delay = 0.2 + index * staggered * 0.3;
 
-  //   useEffect(() => {
-  //     const handleResize = () => {
-  //       const newWidth = window.innerWidth;
-  //       const newHeight = window.innerHeight;
-  //       if (Math.abs(newWidth - prevWidth) > 200) {
-  //         setWindowSize([newWidth, newHeight]);
-  //         setPrevWidth(newWidth);
-  //       }
-  //     };
-  //     window.addEventListener("resize", handleResize);
-  //     return () => window.removeEventListener("resize", handleResize);
-  //   }, [prevWidth]);
-
-  //console.log(staggered);
   return (
     <motion.div
       className={cn(``, className)}
@@ -49,11 +35,9 @@ const MotionCardSections = ({
       viewport={{ once: true, margin }}
       whileInView={{
         opacity: 1,
-        // x: `var(--staggered)`,
         transition: {
           duration: duration,
           delay: delay,
-          //`calc(0.2 + ${index} * var(--staggered) * 0.3)` as any, //0.2 + index * parseInt("var(--staggered)") * 0.3,
         },
       }}
     >

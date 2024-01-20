@@ -1,13 +1,15 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 type Props = {};
 
 const Process = (props: Props) => {
+  const [ref, inView] = useInView();
+
   return (
     <motion.svg
-      // id="nuts"
-      // className="nuts"
+      ref={ref}
       version="1.1"
       x="0px"
       y="0px"
@@ -73,7 +75,7 @@ const Process = (props: Props) => {
     </style> */}
       <motion.g
         initial={{ rotate: 0 }}
-        animate={{ rotate: -180 }}
+        animate={inView && { rotate: -180 }}
         transition={{
           duration: 3,
           //type: "tween",
@@ -150,7 +152,7 @@ const Process = (props: Props) => {
       </motion.g>
       <motion.g
         initial={{ rotate: 0 }}
-        animate={{ rotate: 180 }}
+        animate={inView && { rotate: 180 }}
         transition={{
           duration: 3,
           //   type: "tween",

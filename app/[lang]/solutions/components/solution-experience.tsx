@@ -32,7 +32,7 @@ const SolutionExperience = ({ dictionary, solution }: Props) => {
         <TwoColumnsWrapper.RightColumn>
           <MotionShowWrapper direction="right">
             <div className="text-left">
-              <h2 className="pb-12 text-3xl">{title}</h2>
+              <h2 className="pb-12 text-3xl max-lg:pt-16">{title}</h2>
               <div>
                 {" "}
                 <HtmlFromJson htmlText={experience} className="space-y-4" />

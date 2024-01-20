@@ -13,7 +13,7 @@ type Props = {
 const AboutUsValues = ({ className, dictionary }: Props) => {
   const values = dictionary["about-us-values"];
   return (
-    <div className="mx-auto max-w-[1200px]  py-12">
+    <div className="mx-auto max-w-[1200px]  px-4 py-12">
       <h2 className="pb-24 text-3xl md:text-4xl">{values}</h2>
       <div className=" grid gap-8 max-md:px-4 md:grid-cols-2">
         {aboutUsCards.map((card, index) => {

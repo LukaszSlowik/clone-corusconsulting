@@ -11,7 +11,7 @@ type Props = {
 };
 
 const SectorsDetails = ({ dictionary, sector }: Props) => {
-  console.log("sector", sector);
+  //console.log("sector", sector);
   const title =
     dictionary.sectors[sector as keyof typeof dictionary.sectors].title;
   const description =
@@ -19,7 +19,7 @@ const SectorsDetails = ({ dictionary, sector }: Props) => {
 
   return (
     <div className="index-[2] relative ">
-      <div className="mx-auto max-w-[1200px]   px-4 py-12 ">
+      <div className="mx-auto max-w-[1200px]  overflow-clip px-4 py-12 ">
         <MotionShowWrapper direction="left">
           <h2 className="pb-2 text-3xl">{title}</h2>
         </MotionShowWrapper>
@@ -31,7 +31,7 @@ const SectorsDetails = ({ dictionary, sector }: Props) => {
             </MotionShowWrapper>
           </div>
           <div className="  ">
-            <div className="sector-image relative  max-w-[90%] before:bg-[#e6e6e6] before:dark:bg-[#414141]">
+            <div className="sector-image relative max-w-[90%]   before:bg-[#e6e6e6] before:dark:bg-[#414141]">
               <MotionShowWrapper direction="right">
                 <Image
                   src={`/img/sectors/${sector}.jpg`}

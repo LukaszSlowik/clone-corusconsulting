@@ -2,31 +2,24 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { set } from "zod";
 
 type Props = {};
 
 const IntegrationApi = (props: Props) => {
-  const { ref, inView } = useInView({
-    //threshold: 0.5,
-    //rootMargin: "-200px 0px 0px 0px",
-  });
+  const [ref, inView] = useInView();
 
   const delay = 1;
   const variants = {
     visible: {
       opacity: 1,
       transition: {
-        //   when: "beforeChildren",
-        //delay: delay,
         staggerChildren: 0.7 / 67,
         delayChildren: delay,
       },
     },
     hidden: {
       opacity: 0,
-      transition: {
-        //   when: "afterChildren",
-      },
     },
   };
   const childerenVariants = {
@@ -41,7 +34,7 @@ const IntegrationApi = (props: Props) => {
     <motion.svg
       variants={variants}
       initial="hidden"
-      overflow="visible"
+      //overflow="visible"
       //xmlns="http://www.w3.org/2000/svg"
       //xmlnsXlink="http://www.w3.org/1999/xlink"
       animate={inView && "visible"}

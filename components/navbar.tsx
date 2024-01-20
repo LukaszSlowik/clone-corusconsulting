@@ -1,18 +1,16 @@
 "use client";
 
 import React from "react";
-import { LuArrowUp, LuChevronDown } from "react-icons/lu";
-import DropDownMenu from "./drop-down-menu";
-import * as Popover from "@radix-ui/react-popover";
+import { LuChevronDown } from "react-icons/lu";
+
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import SubMenu from "./sub-menu";
-import CorusHeaderLogo from "./corus-header-logo";
+
 import { DictionaryType } from "@/lib/dictionary";
 import { Locale } from "@/i18n.config";
 import { SubLinksType } from "@/app/[lang]/layout";
 import MyPresentationPopup from "./my-popup/my-presentation-popup";
-import Hamburger from "./hamburger";
 
 type Props = {
   scroll: boolean;
@@ -23,79 +21,8 @@ type Props = {
   setOpenMobile: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-// const spanLinks = [
-//   {
-//     title: "Solutions",
-//     subLinks: [
-//       {
-//         title: "Join the team1",
-//         href: "/#",
-//       },
-//       {
-//         title: "Join the team2",
-//         href: "/#",
-//       },
-//     ],
-//   },
-//   {
-//     title: "Sectors",
-//     subLinks: [
-//       {
-//         title: "Join the team3",
-//         href: "/#",
-//       },
-//       {
-//         title: "Join the team4",
-//         href: "/#",
-//       },
-//     ],
-//   },
-//   {
-//     title: "Us",
-//     subLinks: [
-//       {
-//         title: "Join the team3",
-//         href: "/#",
-//       },
-//       {
-//         title: "Join the team4",
-//         href: "/#",
-//       },
-//     ],
-//   },
-//   {
-//     title: "Positions",
-//     subLinks: [
-//       {
-//         title: "Join the team3",
-//         href: "/#",
-//       },
-//       {
-//         title: "Join the team4",
-//         href: "/#",
-//       },
-//     ],
-//   },
-//   {
-//     title: "Contact",
-//     subLinks: [
-//       {
-//         title: "Join the team3",
-//         href: "/#",
-//       },
-//       {
-//         title: "Join the team4",
-//         href: "/#",
-//       },
-//     ],
-//   },
-// ] as const;
-
 const Navbar = ({ scroll, navSubLinks, openMobile, setOpenMobile }: Props) => {
-  //const [open, setOpen] = React.useState(false);
-  // const [openMobile, setOpenMobile] = React.useState(false);
   const [openPopUp, setOpenPopUp] = React.useState(false);
-  //const [open, setOpen] = React.useState(false);
 
   return (
     <>
@@ -180,15 +107,13 @@ type PropsSpanNav = {
 };
 
 const SpanNav = ({
-  //children,
   scroll,
   openPopUp,
   setOpenPopUp,
   spanLink,
 }: PropsSpanNav) => {
   const [open, setOpen] = React.useState(false);
-  //const [openPopUp, setOpenPopUp] = React.useState(false);
-  console.log(spanLink);
+
   return (
     <>
       <SubMenu
@@ -219,17 +144,15 @@ const SpanNav = ({
       >
         <div
           onMouseLeave={(e) => {
-            console.log("Mouse leave: ", e);
+            //("Mouse leave: ", e);
             setOpen(false);
           }}
-          // key={`${scroll}`}
           className={cn(
             `relative border-[3px]  bg-dark font-bold text-white opacity-90 shadow-dropdownMenu `,
             scroll &&
               ` border-none bg-white text-dark opacity-100 dark:bg-dark dark:text-white`,
           )}
         >
-          {/* <MyPresentationPopup open={openPopUp} setOpen={setOpenPopUp} /> */}
           <div
             className={cn(
               `absolute left-[30px] top-[-10px] h-[16px] w-[16px] rotate-45 border-l-[3px]  border-t-[3px]  border-b-white border-l-white border-r-white border-t-white bg-dark`,
@@ -243,12 +166,6 @@ const SpanNav = ({
                 className=" flex  min-w-[160px]"
                 onClick={() => {
                   setOpen(false);
-                  // if (
-                  //   subLink.title === "Join the team" ||
-                  //   subLink.title === "Job offers"
-                  // ) {
-                  //   setOpenPopUp(true);
-                  // }
                 }}
               >
                 {subLink.href.includes("positions") ? (

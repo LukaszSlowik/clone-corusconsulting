@@ -10,7 +10,7 @@ type Props = {
 };
 
 const SolutionFirstPart = ({ solution, dictionary, svg }: Props) => {
-  console.log("solution:", solution);
+  //console.log("solution:", solution);
   const title =
     dictionary.solutions[solution as keyof typeof dictionary.solutions].title;
   const description =

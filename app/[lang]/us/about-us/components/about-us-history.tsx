@@ -49,8 +49,8 @@ const AboutUsHistory = ({ dictionary }: Props) => {
         className="absolute left-0 right-0 top-[265px] lg:[border-bottom:15px_solid_transparent]   "
         style={{ borderImage: `url('/img/border.png') 15 round` }}
       ></div>
-      <div className="relative mx-auto  max-w-[1200px] max-md:px-4 md:py-24">
-        <h2 className="pb-28 pl-8 text-3xl text-dark">{ourHistory}</h2>
+      <div className="relative mx-auto  max-w-[1200px] py-20 max-md:px-4 md:py-24">
+        <h2 className="pb-28 pl-8  text-3xl text-dark">{ourHistory}</h2>
         <div className="flex items-center justify-evenly  max-lg:hidden">
           {aboutUsHistory.map((card, index) => {
             const title =
@@ -71,14 +71,14 @@ const AboutUsHistory = ({ dictionary }: Props) => {
                 >
                   <Tooltip.Provider>
                     <Tooltip.Root delayDuration={0}>
-                      <Tooltip.Trigger className="shadow-card-over rounded-sm bg-dark px-6 py-4 text-white transition-all hover:translate-y-[-2px] hover:bg-primary">
+                      <Tooltip.Trigger className="rounded-sm bg-dark px-6 py-4 text-white shadow-card-over transition-all hover:translate-y-[-2px] hover:bg-primary">
                         {card.name}
                       </Tooltip.Trigger>
                       <Tooltip.Portal>
                         <Tooltip.Content
                           side={index % 2 === 0 ? "top" : "bottom"}
                           sideOffset={10}
-                          className="shadow-card-over max-w-[300px] bg-dark p-6 text-white transition-all duration-1000"
+                          className="max-w-[300px] bg-dark p-6 text-white shadow-card-over transition-all duration-1000"
                         >
                           <h2 className="pb-4 text-xl">{title}</h2>
                           <p>{description}</p>
@@ -112,7 +112,7 @@ const AboutUsHistory = ({ dictionary }: Props) => {
                 <div className="   rounded-sm bg-primary px-6 py-4 text-center text-white transition-all ">
                   {card.name}
                 </div>
-                <div className="shadow-cardhistory bg-white p-6 dark:bg-dark">
+                <div className="bg-white p-6 shadow-cardhistory dark:bg-dark">
                   <h2 className="py-2 text-xl">{title}</h2>
                   <p>{description}</p>
                 </div>

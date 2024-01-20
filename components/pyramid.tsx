@@ -8,12 +8,10 @@ type Props = {
 };
 
 const Pyramid = ({ dictionary }: Props) => {
-  //const [isView, setIsView] = React.useState(false);
   const title = dictionary["pyramid"]["collaboration-modalities"];
   const { ref, inView } = useInView({
     threshold: 0.7,
   });
-  console.log("inView", inView);
 
   return (
     <div ref={ref} className="relative mx-auto max-w-[1200px]">
@@ -111,7 +109,6 @@ const Pyramid = ({ dictionary }: Props) => {
             }
           }
           id="pyramid_step_4"
-          //className="pyramid_step fill-[#cbcfc9] stroke-black stroke-2"
         >
           <polygon
             className="pyramid_block"

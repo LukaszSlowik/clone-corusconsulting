@@ -121,7 +121,7 @@ const CorusHeaderLogo = ({ className, classNameText }: Props) => {
     L192.2,64.8z"
           ></path>
           <text x="170" y="150" className={cn(`text-5xl`, classNameText)}>
-            (Clone)
+            (clone)
           </text>
         </g>
       </motion.svg>

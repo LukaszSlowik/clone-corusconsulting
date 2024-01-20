@@ -7,19 +7,12 @@ import React from "react";
 type Props = {
   card: CardType;
   className?: string;
-  //dictionary: DictionaryType;
+
   title: string;
   description: string;
 };
 
 const SectorCard = ({ card, className, title, description }: Props) => {
-  console.log("description", description);
-  //console.log("dictionary in card", dictionary);
-
-  //   const title =
-  //     dictionary.cards[card.name as keyof typeof dictionary.cards].title;
-  //   const description =
-  //     dictionary.cards[card.name as keyof typeof dictionary.cards].description;
   return (
     <div
       className={cn(

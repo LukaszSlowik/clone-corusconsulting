@@ -53,28 +53,7 @@ const Footer = ({ dictionary, lang }: Props) => {
             privacy={links.privacy}
             cookies={links.cookies}
           />
-          {/* <div className="flex items-center justify-between gap-8 text-sm">
-            <div>
-              <Link href={`/#`}>{links.terms}</Link>
-            </div>
-            <div>
-              <Link href={`/#`}>{links.privacy}</Link>
-            </div>
-            <div>
-              <Link href={`/#`}>{links.cookies}</Link>
-            </div>
-          </div> */}
-          {/* <div className="mx-2 flex items-center gap-2 fill-white stroke-white">
-            <Link href={`/#`}>
-              <Yt className="hover:opacity-50 " />
-            </Link>
-            <Link href={`/#`}>
-              <Tw className="hover:opacity-50 " />
-            </Link>
-            <Link href={`/#`} className="">
-              <Ln className="hover:opacity-50 " />
-            </Link>
-          </div> */}
+
           <FooterSocial />
         </div>
         <div className="flex justify-end">
@@ -83,7 +62,7 @@ const Footer = ({ dictionary, lang }: Props) => {
             alt="sello-ecovadis"
             width={120}
             height={100}
-            className="  "
+            className="pr-4 max-sm:w-[70px] "
           />
         </div>
         <h1 className="px-2 text-center text-sm">
