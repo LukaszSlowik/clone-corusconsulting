@@ -34,6 +34,13 @@ type Props = {
   params: { lang: Locale };
 };
 
+export const generateStaticParams = async () => {
+  const slugs = ["en", "es"];
+  return slugs.map((slug) => ({
+    lang: slug,
+  }));
+};
+
 export default async function Home({ params }: Props) {
   const dictionary = await getDictionary(params.lang);
   return (

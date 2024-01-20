@@ -16,6 +16,13 @@ type Props = {
   };
 };
 
+export const generateStaticParams = async () => {
+  const slugs = ["en", "es"];
+  return slugs.map((slug) => ({
+    lang: slug,
+  }));
+};
+
 export const metadata: Metadata = {
   title: "Contact | Clone of Corus",
 };

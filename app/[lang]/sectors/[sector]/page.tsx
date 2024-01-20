@@ -8,7 +8,7 @@ import { DictionaryType } from "@/lib/dictionary";
 import { getDictionary } from "@/lib/dictionary";
 import { sectorsCards } from "@/data/sectors-cards";
 import { sectorsClients } from "@/data/sectors-clients";
-import { Metadata } from "next";
+import { GetStaticPaths, Metadata } from "next";
 
 type Props = {
   params: { lang: Locale; sector: string };
@@ -25,55 +25,26 @@ export async function generateMetadata({
   };
 }
 
-// const cards = [
-//   {
-//     name: "quality",
-//     // title: "Quality",
-//     // description: "in the contents and their reproduction",
-//     icon: "/img/icon/medal-star-circle.svg",
-//     alt: "medal",
-//   },
-//   {
-//     name: "security",
-//     // title: "Security",
-//     // description: "in rights management",
-//     icon: "/img/icon/security-circle.svg",
-//     alt: "security",
-//   },
-//   {
-//     name: "usability",
-//     // title: "Usability",
-//     // description: "in the interaction with the user",
-//     icon: "/img/icon/usability-circle.svg",
-//     alt: "usability",
-//   },
-//   {
-//     name: "adaptation",
-//     // title: "Adaptation",
-//     // description: "to each of the devices",
-//     icon: "/img/icon/responsive-circle.svg",
-//     alt: "responsive",
-//   },
-// ];
-
-// const clients = [
-//   {
-//     icon: "/img/logo/vocento.svg",
-//     alt: "vocento",
-//   },
-//   {
-//     icon: "/img/logo/rtve.svg",
-//     alt: "rtve",
-//   },
-//   {
-//     icon: "/img/logo/elespanol.svg",
-//     alt: "el español",
-//   },
-//   {
-//     icon: "/img/logo/prisa.svg",
-//     alt: "prisa",
-//   },
-// ];
+export const generateStaticParams = async () => {
+  const slugs = [
+    { sector: "finance", lang: "en" },
+    { sector: "finance", lang: "es" },
+    { sector: "insurance", lang: "en" },
+    { sector: "insurance", lang: "es" },
+    { sector: "healthcare", lang: "en" },
+    { sector: "healthcare", lang: "es" },
+    { sector: "industry", lang: "en" },
+    { sector: "industry", lang: "es" },
+    { sector: "media", lang: "en" },
+    { sector: "media", lang: "es" },
+    { sector: "consumer", lang: "en" },
+    { sector: "consumer", lang: "es" },
+  ];
+  return slugs.map((slug) => ({
+    sector: slug.sector,
+    lang: slug.lang,
+  }));
+};
 
 const Page = async ({ params }: Props) => {
   const dictionary = await getDictionary(params.lang);
