@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import React from "react";
+import React, { useCallback } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { DictionaryType } from "@/lib/dictionary";
 import Link from "next/link";
@@ -36,11 +36,11 @@ const Hero = ({ dictionary, lang }: Props) => {
 
   const intervalRef = React.useRef<NodeJS.Timeout | null>(null);
 
-  const startInterval = () => {
+  const startInterval = useCallback(() => {
     intervalRef.current = setInterval(() => {
       setIndex((prev) => (prev === slider.length - 1 ? 0 : prev + 1));
     }, 5000);
-  };
+  }, [slider.length]);
 
   React.useEffect(() => {
     startInterval();
@@ -50,7 +50,7 @@ const Hero = ({ dictionary, lang }: Props) => {
         clearInterval(intervalRef.current);
       }
     };
-  }, []);
+  }, [startInterval]);
 
   const handleButtonClick = (i: number) => {
     if (intervalRef.current) {

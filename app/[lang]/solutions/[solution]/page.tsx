@@ -34,6 +34,20 @@ export async function generateMetadata({
     title: `${idUpperFirst} | Clone Corus`,
   };
 }
+
+export const generateStaticParams = async () => {
+  const slugs = [
+    { solution: "integration-api", lang: "en" },
+    { solution: "integration-api", lang: "es" },
+    { solution: "process", lang: "en" },
+    { solution: "process", lang: "es" },
+  ];
+  return slugs.map((slug) => ({
+    solution: slug.solution,
+    lang: slug.lang,
+  }));
+};
+
 const svgs = {
   "integration-api": <IntegrationApi />,
   process: <Process />,

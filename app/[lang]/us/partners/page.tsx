@@ -10,6 +10,13 @@ export const metadata: Metadata = {
   title: "Partners | Clone of Corus",
 };
 
+export const generateStaticParams = async () => {
+  const slugs = [{ lang: "en" }, { lang: "es" }];
+  return slugs.map((slug) => ({
+    lang: slug.lang,
+  }));
+};
+
 const Page = (props: Props) => {
   return (
     <div className="pt-[72px] text-dark">

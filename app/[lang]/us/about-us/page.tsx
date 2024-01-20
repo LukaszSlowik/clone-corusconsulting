@@ -16,6 +16,13 @@ export const metadata: Metadata = {
   title: "About Us | Clone of Corus",
 };
 
+export const generateStaticParams = async () => {
+  const slugs = [{ lang: "en" }, { lang: "es" }];
+  return slugs.map((slug) => ({
+    lang: slug.lang,
+  }));
+};
+
 const Page = async ({ params }: Props) => {
   const dictionary = await getDictionary(params.lang);
   return (
